@@ -29,7 +29,6 @@ DEBUG = config('DEBUG', default=False, cast=bool)
 
 ALLOWED_HOSTS = ["0.0.0.0", "192.46.210.231", "*"]
 
-
 # Application definition
 
 INSTALLED_APPS = [
