@@ -28,7 +28,7 @@ services:
     build:
       context: ./frontend
       args:
-        VITE_SERVER_BASE_URL: "http://0.0.0.0:8000/api/v1"
+        VITE_SERVER_BASE_URL: "http://192.46.210.231/api/v1"
     ports:
       - "5173:80"
     depends_on:
