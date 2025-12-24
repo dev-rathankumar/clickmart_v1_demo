@@ -9,7 +9,7 @@ services:
       - postgres_data:/var/lib/postgresql/data
 
   backend:
-    build: ./backend-drf
+    image: rathankumar492/clickmart-backend:latest
     ports:
       - "8000:8000"
     env_file:
