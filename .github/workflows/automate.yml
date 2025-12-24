@@ -46,4 +46,4 @@ jobs:
           script: |
             cd /opt/linode-app
             docker compose pull
-            docker compose up -d
+            docker compose up -d --pull always --force-recreate
